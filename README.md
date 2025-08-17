@@ -74,7 +74,7 @@ The agent will:
 - Create interactive visualizations
 - Provide AI-powered insights and recommendations
 
-## 🛠Technical Architecture
+## Technical Architecture
 
 ### Backend Stack
 - **FastAPI**: High-performance web framework
@@ -94,7 +94,7 @@ The agent will:
 - **Data Cleaning**: Automatic preprocessing
 - **Statistical Analysis**: Descriptive and inferential statistics
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Core Endpoints
 
