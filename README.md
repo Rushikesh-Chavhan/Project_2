@@ -1,22 +1,22 @@
-# 🤖 TDS Data Analyst Agent
+# Data Analyst Agent
 
 A powerful AI-driven data analysis platform that combines the capabilities of Google's Generative AI with advanced data processing tools to provide intelligent insights, visualizations, and automated analysis workflows.
 
-## 📊 Overview
+## Overview
 
 The TDS Data Analyst Agent is a web-based application that transforms how you interact with data. Upload your datasets and questions, and receive comprehensive analysis with interactive visualizations, statistical insights, and AI-powered recommendations.
 
 ### Key Features
 
-- **🔍 Intelligent Data Analysis**: AI-powered insights using Google's Generative AI
-- **📈 Interactive Visualizations**: Dynamic charts and graphs using Matplotlib and Seaborn
-- **🌐 Web Scraping**: Extract data from URLs and web pages
-- **📁 Multi-Format Support**: CSV, Excel, JSON, Parquet, and text files
-- **🔄 Batch Processing**: Analyze multiple questions simultaneously
-- **🎨 Modern UI**: Beautiful, responsive web interface
-- **⚡ Real-time Processing**: Fast analysis with progress tracking
+- **Intelligent Data Analysis**: AI-powered insights using Google's Generative AI
+- **Interactive Visualizations**: Dynamic charts and graphs using Matplotlib and Seaborn
+- **Web Scraping**: Extract data from URLs and web pages
+- **Multi-Format Support**: CSV, Excel, JSON, Parquet, and text files
+- **Batch Processing**: Analyze multiple questions simultaneously
+- **Modern UI**: Beautiful, responsive web interface
+- **Real-time Processing**: Fast analysis with progress tracking
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -133,7 +133,7 @@ Performs AI-powered analysis on datasets with:
 - Anomaly detection
 - Predictive insights
 
-## 📊 Supported Data Formats
+## Supported Data Formats
 
 | Format | Extension | Description |
 |--------|-----------|-------------|
@@ -143,7 +143,7 @@ Performs AI-powered analysis on datasets with:
 | Parquet | `.parquet` | Columnar storage format |
 | Text | `.txt` | Plain text files |
 
-## 🎯 Use Cases
+## Use Cases
 
 ### Business Intelligence
 - Sales performance analysis
@@ -163,14 +163,14 @@ Performs AI-powered analysis on datasets with:
 - Model performance evaluation
 - Data quality assessment
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 - **Local Processing**: Data is processed locally on your server
 - **No Data Storage**: Files are processed in memory and not stored
 - **API Key Protection**: Secure environment variable handling
 - **CORS Configuration**: Configurable cross-origin resource sharing
 
-## 🚀 Deployment
+## Deployment
 
 ### Local Development
 ```bash
@@ -197,7 +197,7 @@ EXPOSE 8000
 CMD ["python", "app.py"]
 ```
 
-## 📝 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -211,17 +211,6 @@ CMD ["python", "app.py"]
 - Adjust analysis parameters in the tool functions
 - Configure CORS settings for production deployment
 - Customize the LLM prompt templates
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes and add tests
-4. Commit your changes: `git commit -am 'Add feature'`
-5. Push to the branch: `git push origin feature-name`
-6. Submit a pull request
 
 ### Development Setup
 ```bash
@@ -260,22 +249,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Check the [Issues](../../issues) page for known problems
 - Create a new issue for bugs or feature requests
 - Review the code documentation for technical details
-
-## 🔮 Roadmap
-
-### Upcoming Features
-- [ ] Real-time collaboration
-- [ ] Advanced statistical models
-- [ ] Custom visualization templates
-- [ ] API rate limiting and caching
-- [ ] Multi-language support
-- [ ] Mobile application
-
-### Version History
-- **v1.0.0**: Initial release with core analysis capabilities
-- **v1.1.0**: Added web scraping functionality
-- **v1.2.0**: Enhanced visualization options
-
----
-
 **Built with ❤️ using FastAPI, LangChain, and Google Generative AI**
