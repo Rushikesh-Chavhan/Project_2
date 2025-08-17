@@ -52,7 +52,7 @@ The TDS Data Analyst Agent is a web-based application that transforms how you in
 5. **Access the application**
    Open your browser and navigate to `http://localhost:8000`
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### 1. Prepare Your Questions
 Create a text file (`.txt`) with your analysis questions. Each question should be on a separate line:
@@ -74,7 +74,7 @@ The agent will:
 - Create interactive visualizations
 - Provide AI-powered insights and recommendations
 
-## 🛠️ Technical Architecture
+## 🛠Technical Architecture
 
 ### Backend Stack
 - **FastAPI**: High-performance web framework
@@ -224,11 +224,11 @@ python -m pytest
 black app.py
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support & Troubleshooting
+## Support & Troubleshooting
 
 ### Common Issues
 
@@ -249,4 +249,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Check the [Issues](../../issues) page for known problems
 - Create a new issue for bugs or feature requests
 - Review the code documentation for technical details
-**Built with ❤️ using FastAPI, LangChain, and Google Generative AI**
+**Built using FastAPI, LangChain, and Google Generative AI**
